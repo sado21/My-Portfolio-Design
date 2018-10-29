@@ -1,7 +1,3 @@
-body {
-   background-image:url("http://flags.fmcdn.net/data/flags/w580/so.png");
-
-}
 
 * {
 	font-family: 'CMUSerifRoman'; 
@@ -10,73 +6,53 @@ body {
 	text-align: center;}
 
 body {
-		width: 90%;
-		margin: 0 auto;}
+  padding: 0.5em;
+  width: 90%;
+  margin: 0 auto;
+  background-image:url("http://flags.fmcdn.net/data/flags/w580/so.png");
+  background-size:contain;
+  background-position: center;
+  background-repeat:;}
 
 #content {
-	overflow: auto;}
-
+  overflow: auto;
+  color: white; }
 #nav, #feature, #footer {
-		margin: 1%;}
-hi {
-  color:#00FF00;
+  margin: 3%;}
+.column1 {
+  width: 100%;
+  float: center;
+  margin: 1%;
+  height: 100;
+  margin-bottom: 1em;
+  background-color: black;
+  padding: 0.5em;}
+
+
+h1 {
+  color:white;
 }
 
-.column1,
-
-.column2, .column3 {
-	  	width: 31.3%;
-		float: left;
-		margin: 1%;}
-
-.column3 {
-	margin-right: 0%;
-         }
-
-li {
-	display: inline;
-	padding: 0.5em;}
-			
 #nav, #footer {
-		background-color: #efefef;
-		padding: 0.5em 0;}
-			
-#feature, .article {
-		height: 10em;
-		margin-bottom: 1em;
-		background-color: #efefef;}
+  background-color:pink;
+  padding: 0.5em 0;}
 
-#nav  {background-color: gray;}
-
-#content {background-color: rgb(255, 255);}
-
-#footer {background-color: gray;}
-
-.column1{background-color: orange}
-
-.column2{background-color: pink}
-
-.column3{background-color:  orange}
+#nav li {display:inline;}
 
 #feature {
-   background-color: blue;
-   background-image: url(");
-   background-size:contain;
-   background-position: center;
-   background-repeat:no-repeat;}
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: black;
+  background-image: url("https://images.pexels.com/photos/754082/pexels-photo-754082.jpeg?auto=compress&cs=tinysrgb&h=350");
+  background-size:contain;
+  background-position: center;
+  background-repeat:no-repeat;}
 
-p, h2, a { 
+p, h1,a { 
    font-family: 'DancingScriptRegular'; 
    font-weight: normal; 
    font-style: normal; 
    font-size: 200%;
-}
 
 
-h1 {
-  text-align:center;
-  color:red;
-  font-family:'DancingScriptRegular';
-  font-size:400%;
-  
-}
+
